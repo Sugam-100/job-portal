@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Outfit;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.rich-text {
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  color: #333333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rich-text h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.rich-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 24px 0 10px;
+}
+
+.rich-text p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.rich-text ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.rich-text ol li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
